@@ -1,0 +1,198 @@
+[{
+    "user": {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@doe.com",
+        "phone": "0123456789"
+    },
+    "addresses": [
+        {
+            "id": "1",
+            "address1": "123 Main Street",
+            "address2": "Apt 1",
+            "city": "London",
+            "state": "London",
+            "postcode": "W1 1AA"
+        },
+        {
+            "id": "2",
+            "address1": "123 Second Street",
+            "address2": "Apt 2",
+            "city": "London",
+            "state": "London",
+            "postcode": "W1 1AA"
+        }
+    ],
+    "statistics": [
+        {
+            "name": "Orders in Total",
+            "value": "10"
+        },
+        {
+            "name": "Total Items Purchased",
+            "value": "100"
+        },
+        {
+            "name": "Total Spent",
+            "value": "£1000"
+        },
+        {
+            "name": "Open Returns",
+            "value": "3"
+        },
+        {
+            "name": "Wishlist Items",
+            "value": "5"
+        }
+    ],
+    "subscriptions": [
+        {
+            "name": "Email Subscription",
+            "active": true
+        },
+        {
+            "name": "SMS Subscription",
+            "active": false
+        },
+        {
+            "name": "Push Notification",
+            "active": true
+        },
+        {
+            "name": "In-App Notifications",
+            "active": false
+        }
+    ],
+    "orders": [
+        {
+            "id": "123456",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        },
+        {
+            "id": "123457",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        },
+        {
+            "id": "123458",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        }
+    ],
+    "returns": [
+        {
+            "id": "123456",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        },
+        {
+            "id": "123457",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        },
+        {
+            "id": "123458",
+            "date": "01/01/2020",
+            "status": "Delivered",
+            "total": "£100.00",
+            "shippingDate": "01/01/2020"
+        }
+    ],
+    "paymentCards": [
+        {
+            "id": "123456",
+            "name": "John Doe",
+            "cardNumber": "**** **** **** 1234",
+            "cardType": "Visa",
+            "validDate": "01/01/2020",
+            "expiryDate": "01/01/2026"
+        },
+        {
+            "id": "123457",
+            "name": "Jane Doe",
+            "cardNumber": "**** **** **** 5678",
+            "cardType": "Mastercard",
+            "validDate": "01/01/2020",
+            "expiryDate": "01/01/2030"
+        },
+        {
+            "id": "123458",
+            "name": "John Person",
+            "cardNumber": "**** **** **** 4321",
+            "cardType": "Visa",
+            "validDate": "01/01/2020",
+            "expiryDate": "01/01/2026"
+        },
+        {
+            "id": "123459",
+            "name": "Jane Person",
+            "cardNumber": "**** **** **** 8765",
+            "cardType": "Mastercard",
+            "validDate": "01/01/2020",
+            "expiryDate": "01/01/2030"
+        }
+    ],
+    "perks": [
+        {
+            "title": "10% off your next transfer",
+            "image": "/img/account/skilifs_horizontal.png",
+            "imageWidth": 225,
+            "imageHeight": 62,
+            "text": "Using this unique link your exclusive discount is automatically applied",
+            "url": "https://transfers.ski-lifts.com/wp/absolute-snow"
+        },
+        {
+            "title": "5% off private snowboard lessons, 10% off group snowboard lessons",
+            "image": "/img/account/REAL-LOGO-2019.jpg",
+            "imageWidth": 90,
+            "imageHeight": 90,
+            "text": "Just quote 'Absolute Private' or 'Absolute Group' in additional notes when booking",
+            "url": "https://realsnowboarding.co.uk/"
+        },
+        {
+            "title": "Absolute-Snow Special Offers",
+            "image": "/img/account/special-offers-icon.png",
+            "imageWidth": 118,
+            "imageHeight": 102,
+            "text": "Our top offers and discounts available right now",
+            "url": "https://www.absolute-snow.co.uk/services/special-offers"
+        },
+        {
+            "title": "Get 10% off your next adventure with Bearded Men Adventures",
+            "image": "/img/account/bearded-men-logo.png",
+            "imageWidth": 144,
+            "imageHeight": 174,
+            "text": "Receive 10% off all activities. Just quote 'AbsoluteBMA' when making your next booking",
+            "url": "https://transfers.ski-lifts.com/wp/absolute-snow"
+        },
+        {
+            "title": "5% off your next ski holiday",
+            "image": "/img/account/Iglu.png",
+            "imageWidth": 392,
+            "imageHeight": 298,
+            "text": "Just quote \"Absolute5\" when making your ski holiday",
+            "url": "https://transfers.ski-lifts.com/wp/absolute-snow"
+        },
+        {
+            "title": "25% off a standard membership",
+            "image": "/img/account/SkiClubGB-Black.png",
+            "imageWidth": 1104,
+            "imageHeight": 338,
+            "text": "Use code \"AbsoluteSnow20\" when joining today!",
+            "url": "https://www.skiclub.co.uk/membership"
+        }
+    ]
+}
+]
