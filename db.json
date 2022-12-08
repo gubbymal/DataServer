@@ -4,7 +4,7 @@
     "version": "v1",
     "title": "Vybe Search API for use with the Vybe Toolkit",
     "description": "VYBE | REVOLUTIONARY ECOMMERCE TOOLKIT | REMARKABLE.NET",
-    "termsOfService": "SaaS Paid Product",
+    "termsOfService": "https://remarkable.net",
     "contact": {
       "name": "Vybe Team",
       "email": "technical@vybe.com"
