@@ -1,207 +1,2990 @@
 {
-    "root": "This is some data",
-	"profile": {
-		"name": "typicode"
-	},
-	"voyager": {
-		"account": [
-			{
-				"user": {
-					"title": "Mr",
-					"firstName": "John",
-					"lastName": "Doe",
-					"email": "john@doe.com",
-					"phone": "0123456789"
-				},
-				"addresses": [
-					{
-						"id": "1",
-						"address1": "123 Main Street",
-						"address2": "Apt 1",
-						"city": "London",
-						"state": "London",
-						"postcode": "W1 1AA"
-					},
-					{
-						"id": "2",
-						"address1": "123 Second Street",
-						"address2": "Apt 2",
-						"city": "London",
-						"state": "London",
-						"postcode": "W1 1AA"
-					}
-				],
-				"statistics": [
-					{
-						"name": "Orders in Total",
-						"value": "10"
-					},
-					{
-						"name": "Total Items Purchased",
-						"value": "100"
-					},
-					{
-						"name": "Total Spent",
-						"value": "£1000"
-					},
-					{
-						"name": "Open Returns",
-						"value": "3"
-					},
-					{
-						"name": "Wishlist Items",
-						"value": "5"
-					}
-				],
-				"subscriptions": [
-					{
-						"name": "Email Subscription",
-						"active": true
-					},
-					{
-						"name": "SMS Subscription",
-						"active": false
-					},
-					{
-						"name": "Push Notification",
-						"active": true
-					},
-					{
-						"name": "In-App Notifications",
-						"active": false
-					}
-				],
-				"orders": [
-					{
-						"id": "123456",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					},
-					{
-						"id": "123457",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					},
-					{
-						"id": "123458",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					}
-				],
-				"returns": [
-					{
-						"id": "123456",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					},
-					{
-						"id": "123457",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					},
-					{
-						"id": "123458",
-						"date": "01/01/2020",
-						"status": "Delivered",
-						"total": "£100.00",
-						"shippingDate": "01/01/2020"
-					}
-				],
-				"paymentCards": [
-					{
-						"id": "123456",
-						"name": "John Doe",
-						"cardNumber": "**** **** **** 1234",
-						"cardType": "Visa",
-						"validDate": "01/01/2020",
-						"expiryDate": "01/01/2026"
-					},
-					{
-						"id": "123457",
-						"name": "Jane Doe",
-						"cardNumber": "**** **** **** 5678",
-						"cardType": "Mastercard",
-						"validDate": "01/01/2020",
-						"expiryDate": "01/01/2030"
-					},
-					{
-						"id": "123458",
-						"name": "John Person",
-						"cardNumber": "**** **** **** 4321",
-						"cardType": "Visa",
-						"validDate": "01/01/2020",
-						"expiryDate": "01/01/2026"
-					},
-					{
-						"id": "123459",
-						"name": "Jane Person",
-						"cardNumber": "**** **** **** 8765",
-						"cardType": "Mastercard",
-						"validDate": "01/01/2020",
-						"expiryDate": "01/01/2030"
-					}
-				],
-				"perks": [
-					{
-						"title": "10% off your next transfer",
-						"image": "/img/account/skilifs_horizontal.png",
-						"imageWidth": 225,
-						"imageHeight": 62,
-						"text": "Using this unique link your exclusive discount is automatically applied",
-						"url": "https://transfers.ski-lifts.com/wp/absolute-snow"
-					},
-					{
-						"title": "5% off private snowboard lessons, 10% off group snowboard lessons",
-						"image": "/img/account/REAL-LOGO-2019.jpg",
-						"imageWidth": 90,
-						"imageHeight": 90,
-						"text": "Just quote 'Absolute Private' or 'Absolute Group' in additional notes when booking",
-						"url": "https://realsnowboarding.co.uk/"
-					},
-					{
-						"title": "Absolute-Snow Special Offers",
-						"image": "/img/account/special-offers-icon.png",
-						"imageWidth": 118,
-						"imageHeight": 102,
-						"text": "Our top offers and discounts available right now",
-						"url": "https://www.absolute-snow.co.uk/services/special-offers"
-					},
-					{
-						"title": "Get 10% off your next adventure with Bearded Men Adventures",
-						"image": "/img/account/bearded-men-logo.png",
-						"imageWidth": 144,
-						"imageHeight": 174,
-						"text": "Receive 10% off all activities. Just quote 'AbsoluteBMA' when making your next booking",
-						"url": "https://transfers.ski-lifts.com/wp/absolute-snow"
-					},
-					{
-						"title": "5% off your next ski holiday",
-						"image": "/img/account/Iglu.png",
-						"imageWidth": 392,
-						"imageHeight": 298,
-						"text": "Just quote \"Absolute5\" when making your ski holiday",
-						"url": "https://transfers.ski-lifts.com/wp/absolute-snow"
-					},
-					{
-						"title": "25% off a standard membership",
-						"image": "/img/account/SkiClubGB-Black.png",
-						"imageWidth": 1104,
-						"imageHeight": 338,
-						"text": "Use code \"AbsoluteSnow20\" when joining today!",
-						"url": "https://www.skiclub.co.uk/membership"
-					}
-				]
-			}
-		]
-	}
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "Vybe Search API for use with the Vybe Toolkit",
+    "description": "VYBE | REVOLUTIONARY ECOMMERCE TOOLKIT | REMARKABLE.NET",
+    "termsOfService": "SaaS Paid Product",
+    "contact": {
+      "name": "Vybe Team",
+      "email": "technical@vybe.com"
+    }
+  },
+  "paths": {
+    "/api/import/v1/categories": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload categories JSON file for importing into Vybe",
+        "description": "Allows you to upload all categories for use with retailing for vybe (max 500MB)",
+        "operationId": "ImportCategories",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "categories",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/CategoryRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/facetranks": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload facet rank position JSON file for importing into Vybe",
+        "description": "Allows you to upload all fixed positions for use with retailing for vybe",
+        "operationId": "ImportFacetRank",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "item",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/FacetRankRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/productresult": {
+      "get": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Return the result from the product upload",
+        "description": "Allows you to view the import results for the product upload.",
+        "operationId": "ImportProductResult",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token assigned to your account",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ImportTaskId",
+            "in": "query",
+            "description": "Import Task ID supplied from the import request",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Task Response",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskProductResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/productdeleteresult": {
+      "get": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Return the result from the product delete upload",
+        "description": "Allows you to view the import results for the product delete upload.",
+        "operationId": "ImportProductDeleteResult",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token assigned to your account",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ImportTaskId",
+            "in": "query",
+            "description": "Import Task ID supplied from the import request",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Task Response",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskProductDeleteResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/pageresult": {
+      "get": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Return the result from the page upload",
+        "description": "Allows you to view the import results for the page upload.",
+        "operationId": "ImportPageResult",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token assigned to your account",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ImportTaskId",
+            "in": "query",
+            "description": "Import Task ID supplied from the import request",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Task Response",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskPageResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/categoryresult": {
+      "get": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Return the result from the categories upload",
+        "description": "Allows you to view the import results for the categories upload.",
+        "operationId": "ImportCategoryResult",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token assigned to your account",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ImportTaskId",
+            "in": "query",
+            "description": "Import Task ID supplied from the import request",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Task Response",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskCategoryResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/stockresult": {
+      "get": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Return the result from the stock upload",
+        "description": "Allows you to view the import results for the stock upload.",
+        "operationId": "ImportStockResult",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token assigned to your account",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ImportTaskId",
+            "in": "query",
+            "description": "Import Task ID supplied from the import request",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Task Response",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskStockResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/search/v1/instant": {
+      "get": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Get the instant search page for your website, this is used for quick searching.",
+        "description": "Supply a valid token and site name along with the searh phrase to get instant search results.",
+        "operationId": "Search",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SearchPhrase",
+            "in": "query",
+            "description": "This is the search phrase the customer has typed into the search bar",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Limit",
+            "in": "query",
+            "description": "Limit the amount of products returned back. i.e. to show no more than 5 send 5 as the Limit.",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "ResultsType",
+            "in": "query",
+            "description": "Set the amount of product data to return.  This can be either IDS or PRODUCT",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Currency",
+            "in": "query",
+            "description": "Currency of products to be returned back.  This assumes you have supplied products in these currencies.  Use the 3 Digit ISO code.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "No search results were found for this search phrase."
+          },
+          "200": {
+            "description": "search data returned",
+            "schema": {
+              "$ref": "#/definitions/InstantResult"
+            }
+          }
+        }
+      }
+    },
+    "/api/merch/v1/getpage": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Get the merch page for your website.",
+        "description": "Supply a valid token and site name with a merch page id to retrieve the full merch page JSON data.",
+        "operationId": "Index",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ClientMerchPageId",
+            "in": "query",
+            "description": "Client Merch Page ID, this is your internal ID you pass to us in the page feed",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Currency",
+            "in": "query",
+            "description": "3 Digit ISO Currency code.  for example. GDP, FRA, USD etc.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Take",
+            "in": "query",
+            "description": "How many products to get, i.e. 10 products",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "Skip",
+            "in": "query",
+            "description": "How many products to skip, for example if we are showing 10 products per page and are page two we would supply skip the first 10.",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "SortBy",
+            "in": "query",
+            "description": "Which Sort to apply to the dataset",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Facets",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "merch page returned",
+            "schema": {
+              "$ref": "#/definitions/MerchPageResult"
+            }
+          },
+          "404": {
+            "description": "No merch page found for this site name, token and merchpageid."
+          }
+        }
+      }
+    },
+    "/api/merch/v1/getpagebyurl": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Get the merch page for your website for a given URL.",
+        "description": "Supply a valid token and site name with a URL to retrieve the full merch page JSON data.",
+        "operationId": "GetMerchPageByUrl",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Url",
+            "in": "query",
+            "description": "URL, the URL that the merch page corresponsds to",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Currency",
+            "in": "query",
+            "description": "3 Digit ISO Currency code.  for example. GDP, FRA, USD etc.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Take",
+            "in": "query",
+            "description": "How many products to get, i.e. 10 products",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "Skip",
+            "in": "query",
+            "description": "How many products to skip, for example if we are showing 10 products per page and are page two we would supply skip the first 10.",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "SortBy",
+            "in": "query",
+            "description": "Which Sort to apply to the dataset",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Facets",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "merch page returned",
+            "schema": {
+              "$ref": "#/definitions/MerchPageResult"
+            }
+          },
+          "404": {
+            "description": "No merch page found for this site name, token and url."
+          }
+        }
+      }
+    },
+    "/api/merch/v1/getsortbyoptions": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Get the sort by options to use on merch and search pages.",
+        "description": "Supply a valid token and site name to retrieve the sort by JSON data.",
+        "operationId": "GetSortByOptions",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "siteName",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/merch/v1/getactivemerchpages": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Gets all the currently active merch pages for a site",
+        "description": "Supply a valid token and site name to retrieve the merch pages JSON data.",
+        "operationId": "GetActiveMerchPages",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "siteName",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/navigation/v1/get": {
+      "get": {
+        "tags": [
+          "navigation"
+        ],
+        "summary": "Retrieves the active navigation for your website.",
+        "description": "Supply a valid token and site name to retrieve you active site navigation JSON data.",
+        "operationId": "GetLiveNavigation",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "NavigationName",
+            "in": "query",
+            "description": "This is the navigation name you set in Vybe admin",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "navigation returned",
+            "schema": {
+              "$ref": "#/definitions/NavigationResult"
+            }
+          },
+          "404": {
+            "description": "No navigation found for this site name and token."
+          }
+        }
+      }
+    },
+    "/api/cms/v1/getbykey": {
+      "get": {
+        "tags": [
+          "cms"
+        ],
+        "summary": "Retrieves HTML content for the cms page.",
+        "description": "Supply a valid token and content key",
+        "operationId": "GetPageContentByKey",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Key",
+            "in": "query",
+            "description": "Unique key for the site content, you can see all valid using the getkeys API call",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "content returned",
+            "schema": {
+              "$ref": "#/definitions/CmsPageContentResult"
+            }
+          },
+          "404": {
+            "description": "No content found for this content key."
+          }
+        }
+      }
+    },
+    "/api/cms/v1/getbyurl": {
+      "get": {
+        "tags": [
+          "cms"
+        ],
+        "summary": "Retrieves HTML content for the cms page.",
+        "description": "Supply a valid token and relative page url",
+        "operationId": "GetPageContentByUrl",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Language",
+            "in": "query",
+            "description": "3 digit ISO code for the site language. i.e. ENG",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Url",
+            "in": "query",
+            "description": "(optional) Website relative url for this content for example /aboutus",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "content returned",
+            "schema": {
+              "$ref": "#/definitions/CmsPageContentResult"
+            }
+          },
+          "404": {
+            "description": "No content found for this content url."
+          }
+        }
+      }
+    },
+    "/api/cms/v1/previewPage": {
+      "get": {
+        "tags": [
+          "cms"
+        ],
+        "summary": "Retrieves HTML content for the cms page preview.",
+        "description": "Supply a valid token and admin page GUID",
+        "operationId": "PreviewPage",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Guid",
+            "in": "query",
+            "description": "This is the Guid reference for the page from Vybe Admin",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "GroupId",
+            "in": "query",
+            "description": "This is the Draft ID for the page from Vybe Admin, supplied from the preview URL",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "content returned",
+            "schema": {
+              "$ref": "#/definitions/CmsPageContentResult"
+            }
+          },
+          "404": {
+            "description": "No content found for this content url."
+          }
+        }
+      }
+    },
+    "/api/cms/v1/getkeys": {
+      "get": {
+        "tags": [
+          "cms"
+        ],
+        "summary": "Retrieves all valid content keys for use with the get content API calls using a valid token and site name.",
+        "description": "Supply a valid token and site name to retrieve all valid content keys.",
+        "operationId": "GetPageKeys",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Language",
+            "in": "query",
+            "description": "3 digit ISO code for the site language. i.e. ENG",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "keys returned",
+            "schema": {
+              "$ref": "#/definitions/CmsKeysResult"
+            }
+          },
+          "404": {
+            "description": "No keys found for this token."
+          }
+        }
+      }
+    },
+    "/api/cms/v1/getkeysbysites": {
+      "get": {
+        "tags": [
+          "cms"
+        ],
+        "summary": "Retrieves all valid content keys for use with the get content API calls using a valid token and multiple site names.",
+        "description": "Supply a valid token and site name to retrieve all valid content keys.",
+        "operationId": "GetPageKeysBySites",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteNames",
+            "in": "query",
+            "description": "These are the site names used to describe your regional version of the website, as supplied in the feeds to Vybe.  Use a comma to separate sites",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "keys returned",
+            "schema": {
+              "$ref": "#/definitions/CmsKeysResult"
+            }
+          },
+          "404": {
+            "description": "No keys found for this token."
+          }
+        }
+      }
+    },
+    "/api/import/v1/pages": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload pages JSON file for importing into Vybe",
+        "description": "Allows you to upload all pages for use with retailing for vybe (max 500MB)",
+        "operationId": "ImportPages",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PageRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/merch/v1/getproduct": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Retrieves the full product from Vybe for a given Site",
+        "description": "Supply the token, site name and third party product id to retrieve the full product in JSON format.",
+        "operationId": "GetProductFull",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "ClientProductId",
+            "in": "query",
+            "description": "The product id as defined from your system.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "product data returned",
+            "schema": {
+              "$ref": "#/definitions/ProductFullData"
+            }
+          },
+          "404": {
+            "description": "No product found for site and third party product id for this token."
+          }
+        }
+      }
+    },
+    "/api/import/v1/products": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload product JSON file for importing into Vybe",
+        "description": "Allows you to upload a JSON file for all your product data per site (max 500MB)",
+        "operationId": "ImportProducts",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/stock": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload product stock JSON file for importing into Vybe",
+        "description": "Allows you to upload a JSON file for all your product stock data (max 500MB)",
+        "operationId": "ImportStock",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/StockRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/topseller": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload product top seller JSON file for importing into Vybe",
+        "description": "Allows you to upload a JSON file for all your product top seller values",
+        "operationId": "ImportTopSeller",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductTopSellerRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/productpages": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload product pages to set user defined ranks or remove pages",
+        "description": "Allows you to upload a JSON file for all your product pages",
+        "operationId": "ImportProductPages",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductPageRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/import/v1/deleteproducts": {
+      "post": {
+        "tags": [
+          "import"
+        ],
+        "summary": "Upload product to be removed from Vybe",
+        "description": "Allows you to upload a JSON file for all your products to be removed",
+        "operationId": "ImportProductDeleted",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductDeleteRequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Accepted",
+            "schema": {
+              "$ref": "#/definitions/ImportTaskResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/Search/CreateProductIndex": {
+      "post": {
+        "tags": [
+          "Search"
+        ],
+        "operationId": "CreateProductIndex",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "siteName",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "indexName",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/Search/GetMostRecurringWords": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "operationId": "GetMostRecurringWords",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "siteName",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/search/v1/searchpage": {
+      "get": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Get the Search page for your website.",
+        "description": "Supply a valid token and site name with a search phrase to retrieve the full merch page JSON data.",
+        "operationId": "Index",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SearchPhrase",
+            "in": "query",
+            "description": "This is the search phrase the customer has typed into the search bar",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Currency",
+            "in": "query",
+            "description": "3 Digit ISO Currency code.  for example. GDP, FRA, USD etc.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Take",
+            "in": "query",
+            "description": "How many products to get, i.e. 10 products",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "Skip",
+            "in": "query",
+            "description": "How many products to skip, for example if we are showing 10 products per page and are page two we would supply skip the first 10.",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "SortBy",
+            "in": "query",
+            "description": "Which Sort to apply to the dataset",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Facets",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "DisableSearchRedirect",
+            "in": "query",
+            "description": "Disable any search redirects that a query may return",
+            "required": false,
+            "type": "boolean"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "merch page returned",
+            "schema": {
+              "$ref": "#/definitions/MerchPageResult"
+            }
+          },
+          "404": {
+            "description": "No search results found for this site name, token and merchpageid."
+          }
+        }
+      }
+    },
+    "/api/merch/v1/popularandtrending": {
+      "get": {
+        "tags": [
+          "merch"
+        ],
+        "summary": "Retrieves trending products and search phrases for the site",
+        "description": "Supply the token, site name to get trending data.",
+        "operationId": "PopularAndTrending",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Token",
+            "in": "query",
+            "description": "Token supplied during on-boarding or can be generated from within VybeAdmin.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "SiteName",
+            "in": "query",
+            "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Currency",
+            "in": "query",
+            "description": "The product currency using the 3 digit ISO code",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "Skip",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "Take",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "product data returned",
+            "schema": {
+              "$ref": "#/definitions/TrendingPageResult"
+            }
+          },
+          "404": {
+            "description": "No data was found, please try again later once more history has been built up."
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CategoryRequest": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "description": "Page title this normally matches with your product category pages.",
+          "type": "string"
+        },
+        "clientCategoryId": {
+          "description": "This is your unique internal identifier for the page",
+          "type": "string"
+        },
+        "url": {
+          "description": "This is the URL for the page i.e. /dresses.aspx",
+          "type": "string"
+        },
+        "parentClientCategoryId": {
+          "description": "The parent identifier for the page, allows for children pages",
+          "type": "string"
+        },
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website",
+          "type": "string"
+        }
+      }
+    },
+    "ImportTaskResponse": {
+      "type": "object",
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "FacetRankRequest": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        },
+        "facets": {
+          "description": "Facet Data for fixing positions on the navigation",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FacetRank"
+          }
+        }
+      }
+    },
+    "FacetRank": {
+      "type": "object",
+      "properties": {
+        "facetName": {
+          "type": "string"
+        },
+        "fixedRank": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "values": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FacetValueRank"
+          }
+        }
+      }
+    },
+    "FacetValueRank": {
+      "type": "object",
+      "properties": {
+        "facetValue": {
+          "type": "string"
+        },
+        "fixedRank": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "ImportTaskProductResponse": {
+      "type": "object",
+      "properties": {
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "completedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "recordsUpdated": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "itemResults": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ImportTaskProductItem"
+          }
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ImportTaskProductItem": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ImportTaskProductDeleteResponse": {
+      "type": "object",
+      "properties": {
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "completedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "recordsUpdated": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "itemResults": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ImportTaskProductDeleteItem"
+          }
+        }
+      }
+    },
+    "ImportTaskProductDeleteItem": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ImportTaskPageResponse": {
+      "type": "object",
+      "properties": {
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "completedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "recordsUpdated": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "itemResults": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ImportTaskPageItem"
+          }
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ImportTaskPageItem": {
+      "type": "object",
+      "properties": {
+        "clientPageId": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ImportTaskCategoryResponse": {
+      "type": "object",
+      "properties": {
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "completedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "recordsUpdated": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "itemResults": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ImportTaskCategoryItem"
+          }
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ImportTaskCategoryItem": {
+      "type": "object",
+      "properties": {
+        "clientCategoryId": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ImportTaskStockResponse": {
+      "type": "object",
+      "properties": {
+        "importTaskId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "completedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "recordsUpdated": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "itemResults": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ImportTaskStockItem"
+          }
+        }
+      }
+    },
+    "ImportTaskStockItem": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "type": "string"
+        },
+        "stockCode": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        }
+      }
+    },
+    "InstantResult": {
+      "type": "object",
+      "properties": {
+        "searchPhrase": {
+          "type": "string"
+        },
+        "didYouMeanPhrases": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "suggestedTerms": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "autoFillSuggestions": {
+          "type": "string"
+        },
+        "totalMatchedItems": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "results": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ResultItem"
+          }
+        },
+        "productIds": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "format": "int32",
+            "type": "integer"
+          }
+        },
+        "trackingData": {
+          "$ref": "#/definitions/Information"
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        }
+      }
+    },
+    "ResultItem": {
+      "type": "object",
+      "properties": {
+        "vybeProductId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clientProductId": {
+          "type": "string"
+        },
+        "productCode": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "productUrl": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "currency": {
+          "type": "string"
+        }
+      }
+    },
+    "Information": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "pageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "matchedRules": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "MerchPageResult": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "metaTitle": {
+          "type": "string"
+        },
+        "metaDescription": {
+          "type": "string"
+        },
+        "pageContent": {
+          "type": "string"
+        },
+        "onPageTitle": {
+          "type": "string"
+        },
+        "onPageDescription": {
+          "type": "string"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "totalProducts": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "adverts": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageAdvert"
+          }
+        },
+        "facets": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageFacet"
+          }
+        },
+        "products": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageProduct"
+          }
+        },
+        "tracking": {
+          "$ref": "#/definitions/MerchTrackingData"
+        },
+        "duration": {
+          "type": "string"
+        },
+        "error": {
+          "type": "string"
+        }
+      }
+    },
+    "MerchPageAdvert": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "url": {
+          "type": "string"
+        },
+        "columns": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "sites": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageAdvertSite"
+          }
+        }
+      }
+    },
+    "MerchPageFacet": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "collapsed": {
+          "type": "boolean"
+        },
+        "defaultCount": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "numberOfColumns": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "facetName": {
+          "type": "string"
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "facetValues": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageFacetValue"
+          }
+        }
+      }
+    },
+    "MerchPageProduct": {
+      "type": "object",
+      "properties": {
+        "productCode": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "productUrl": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "vybeProductId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clientProductId": {
+          "type": "string"
+        },
+        "rank": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "isAdvert": {
+          "type": "boolean"
+        },
+        "columns": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "images": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prices": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MerchPageProductPrice"
+          }
+        }
+      }
+    },
+    "MerchTrackingData": {
+      "type": "object",
+      "properties": {
+        "merchPageKey": {
+          "type": "string"
+        },
+        "action": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "pageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "matchedRules": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "MerchPageAdvertSite": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "type": "string"
+        }
+      }
+    },
+    "MerchPageFacetValue": {
+      "type": "object",
+      "properties": {
+        "facetName": {
+          "type": "string"
+        },
+        "facetValue": {
+          "type": "string"
+        },
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "count": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "MerchPageProductPrice": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "priceKey": {
+          "type": "string"
+        }
+      }
+    },
+    "NavigationResult": {
+      "type": "object",
+      "properties": {
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "navigation": {
+          "$ref": "#/definitions/NavigationIndex"
+        },
+        "trackingData": {
+          "$ref": "#/definitions/TrackingData"
+        }
+      }
+    },
+    "NavigationIndex": {
+      "type": "object",
+      "properties": {
+        "navigationName": {
+          "type": "string"
+        },
+        "navigationItems": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/NavigationItem"
+          }
+        }
+      }
+    },
+    "TrackingData": {
+      "type": "object",
+      "properties": {
+        "pageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "NavigationItem": {
+      "type": "object",
+      "properties": {
+        "navigationId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "parentNavigationId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "navigationLinks": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/NavigationLink"
+          }
+        }
+      }
+    },
+    "NavigationLink": {
+      "type": "object",
+      "properties": {
+        "navigationLinkId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "parentNavigationLinkId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "navigationId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "column": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "position": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "url": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "isHeader": {
+          "type": "boolean"
+        },
+        "bold": {
+          "type": "boolean"
+        },
+        "italic": {
+          "type": "boolean"
+        },
+        "underline": {
+          "type": "boolean"
+        }
+      }
+    },
+    "CmsPageContentResult": {
+      "type": "object",
+      "properties": {
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "content": {
+          "$ref": "#/definitions/CmsPageContent"
+        },
+        "trackingInformation": {
+          "$ref": "#/definitions/TrackingInformation"
+        }
+      }
+    },
+    "CmsPageContent": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "contentValues": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ContentValue"
+          }
+        },
+        "metaTitle": {
+          "type": "string"
+        },
+        "metaDescription": {
+          "type": "string"
+        },
+        "fullWidth": {
+          "type": "boolean"
+        }
+      }
+    },
+    "TrackingInformation": {
+      "type": "object",
+      "properties": {
+        "pageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "ContentValue": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "cmsEntityID": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "CmsKeysResult": {
+      "type": "object",
+      "properties": {
+        "keys": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CmsKeyItem"
+          }
+        },
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "CmsKeyItem": {
+      "type": "object",
+      "properties": {
+        "dateModified": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "siteName": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        }
+      }
+    },
+    "PageRequest": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        },
+        "title": {
+          "description": "Page title this normally matches with your product category pages.",
+          "type": "string"
+        },
+        "clientPageId": {
+          "description": "This is your unique internal identifier for the page",
+          "type": "string"
+        },
+        "url": {
+          "description": "This is the URL for the page i.e. /dresses.aspx",
+          "type": "string"
+        },
+        "parentClientPageId": {
+          "description": "The parent identifier for the page, allows for children pages",
+          "type": "string"
+        },
+        "pageType": {
+          "description": "This is the type of page for example Brand Page, Promotion Page, Collection etc.",
+          "type": "string"
+        },
+        "hiddenPage": {
+          "description": "Do you need to see this Page in Vybe or is more for historical reasons, these pages won't be available to merchandise and will follow default rules",
+          "type": "boolean"
+        }
+      }
+    },
+    "ProductFullData": {
+      "type": "object",
+      "properties": {
+        "productId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clientProductId": {
+          "type": "string"
+        },
+        "productCode": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "newIn": {
+          "type": "boolean"
+        },
+        "totalStock": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "facets": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProductFacet"
+          }
+        },
+        "images": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProductImage"
+          }
+        },
+        "prices": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProductPrice"
+          }
+        }
+      }
+    },
+    "ProductFacet": {
+      "type": "object",
+      "properties": {
+        "facetValueId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "facetName": {
+          "type": "string"
+        },
+        "facetValue": {
+          "type": "string"
+        }
+      }
+    },
+    "ProductImage": {
+      "type": "object",
+      "properties": {
+        "imageUrl": {
+          "type": "string"
+        },
+        "searchKeywords": {
+          "type": "string"
+        }
+      }
+    },
+    "ProductPrice": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "currencyIsoCode": {
+          "type": "string"
+        }
+      }
+    },
+    "ProductRequest": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website",
+          "type": "string"
+        },
+        "productCode": {
+          "description": "Product Code used to identify your product, this doesn't need to be unique",
+          "type": "string"
+        },
+        "clientProductId": {
+          "description": "Unique ID for the product, this is normally the primary key used from your own systems.  This will be returned back to you in merch API calls",
+          "type": "string"
+        },
+        "groupProductCode": {
+          "description": "Group product code is a ID field used to group items together which fit in the same style, for example could be used to group together all the same dresses",
+          "type": "string"
+        },
+        "title": {
+          "description": "This is the customer facing Title for the product",
+          "type": "string"
+        },
+        "description": {
+          "description": "This is the customer facing Description for the product",
+          "type": "string"
+        },
+        "metaTitle": {
+          "description": "This is the HTML Meta Title for the page",
+          "type": "string"
+        },
+        "metaDescription": {
+          "description": "This is the HTML Meta Description for the page",
+          "type": "string"
+        },
+        "url": {
+          "description": "This is the URL for the product page",
+          "type": "string"
+        },
+        "excludeFromSearch": {
+          "description": "Hide this product from search results",
+          "type": "boolean"
+        },
+        "topSellerValue": {
+          "format": "double",
+          "description": "This is the Top selling value of your product i.e. 7 day sales",
+          "type": "number"
+        },
+        "customRank": {
+          "format": "double",
+          "description": "This is the a custom rank field for use with balance factors",
+          "type": "number"
+        },
+        "weightedAvailability": {
+          "format": "double",
+          "description": "This is the Weighted Availability Value use for balance factors",
+          "type": "number"
+        },
+        "pages": {
+          "description": "These are the active pages this product is assigned to, please ensure you have supplied the pages first using the import pages API",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "categories": {
+          "description": "These are the categories this product is assigned to, please ensure you have supplied the categories first using the import categories API",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "productAttributes": {
+          "description": "These are the attributes this product is assigned to.  Only Brand is currently supported.",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Attribute"
+          }
+        },
+        "facets": {
+          "description": "These are the product facets such as Red, Blue, Silk etc. assigned to a product for filtering.",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Facet"
+          }
+        },
+        "images": {
+          "description": "These are the product images",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Image"
+          }
+        },
+        "prices": {
+          "description": "These are the product prices, you can supply multiple prices per product for different currencies",
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Price"
+          }
+        },
+        "dateAvailableFrom": {
+          "format": "date-time",
+          "description": "Show product after this date",
+          "type": "string"
+        },
+        "dateAvailableTo": {
+          "format": "date-time",
+          "description": "Do not show product after this date",
+          "type": "string"
+        },
+        "dateNewIn": {
+          "format": "date-time",
+          "description": "Used for Sorting By Latest products",
+          "type": "string"
+        },
+        "updateAndReplace": {
+          "description": "Set to true will replace the product in vybe with the information in the feed so any changes applied in Vybe Admin may be lost",
+          "type": "boolean"
+        }
+      }
+    },
+    "Attribute": {
+      "type": "object",
+      "properties": {
+        "attributeName": {
+          "type": "string"
+        },
+        "attributeValue": {
+          "type": "string"
+        }
+      }
+    },
+    "Facet": {
+      "type": "object",
+      "properties": {
+        "facetName": {
+          "type": "string"
+        },
+        "facetValue": {
+          "type": "string"
+        }
+      }
+    },
+    "Image": {
+      "type": "object",
+      "properties": {
+        "imageUrl": {
+          "type": "string"
+        },
+        "colour": {
+          "type": "string"
+        },
+        "thumbnail": {
+          "type": "boolean"
+        },
+        "rank": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Price": {
+      "type": "object",
+      "properties": {
+        "priceKey": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "itemPrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        },
+        "costPrice": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "StockRequest": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "description": "Unique ID for the product, this is normally the primary key used from your own systems.",
+          "type": "string"
+        },
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        },
+        "stockCode": {
+          "description": "Stock code for the item.  This should be unique such as UPC code.",
+          "type": "string"
+        },
+        "stockTitle": {
+          "description": "Title for the stock item such as Large, Small",
+          "type": "string"
+        },
+        "quantity": {
+          "format": "int32",
+          "description": "Current Qty available for stock item",
+          "type": "integer"
+        },
+        "archived": {
+          "description": "Set to true once stock item is not available for sale",
+          "type": "boolean"
+        }
+      }
+    },
+    "ProductTopSellerRequest": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        },
+        "clientPageId": {
+          "description": "This is your unique internal identifier for the page",
+          "type": "string"
+        },
+        "clientProductId": {
+          "description": "Unique ID for the product, this is normally the primary key used from your own systems.",
+          "type": "string"
+        },
+        "topSellerValue": {
+          "format": "double",
+          "description": "This is the Top selling value of your product i.e. 7 day sales",
+          "type": "number"
+        }
+      }
+    },
+    "ProductPageRequest": {
+      "type": "object",
+      "properties": {
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        },
+        "clientPageId": {
+          "description": "This is your unique internal identifier for the page",
+          "type": "string"
+        },
+        "clientProductId": {
+          "description": "Unique ID for the product, this is normally the primary key used from your own systems.",
+          "type": "string"
+        },
+        "userDefinedRank": {
+          "format": "int32",
+          "description": "This is the position you wish to force this product to be in, set to null to revert back to auto position",
+          "type": "integer"
+        },
+        "deleted": {
+          "description": "Set this to true is you wish to un-assign a page to a product",
+          "type": "boolean"
+        }
+      }
+    },
+    "ProductDeleteRequest": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "description": "Unique ID for the product, this is normally the primary key used from your own systems.",
+          "type": "string"
+        },
+        "siteName": {
+          "description": "This is the site name used to describe your regional version of the website, as supplied in the feeds to Vybe",
+          "type": "string"
+        }
+      }
+    },
+    "TrendingPageResult": {
+      "type": "object",
+      "properties": {
+        "responseTime": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        },
+        "errors": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trendingProducts": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TrendingProductResult"
+          }
+        },
+        "popularSearches": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trackingData": {
+          "$ref": "#/definitions/Tracking"
+        }
+      }
+    },
+    "TrendingProductResult": {
+      "type": "object",
+      "properties": {
+        "clientProductId": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "productCode": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "price": {
+          "format": "double",
+          "type": "number"
+        },
+        "rrp": {
+          "format": "double",
+          "type": "number"
+        },
+        "salePrice": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "Tracking": {
+      "type": "object",
+      "properties": {
+        "pageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ruleId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "tags": []
 }
